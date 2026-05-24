@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#09090B"/>
+  <rect x="36" y="36" width="1128" height="558" rx="32" fill="#111114" stroke="#27272A"/>
+  <path d="M0 0H1200V630H0V0Z" fill="url(#grid)" fill-opacity="0.22"/>
+  <circle cx="909" cy="91" r="207" fill="#6366F1" fill-opacity="0.16"/>
+  <rect x="88" y="86" width="74" height="74" rx="18" fill="#6366F1"/>
+  <path d="M106.5 109H129.5C142.479 109 153 119.521 153 132.5C153 145.479 142.479 156 129.5 156H106.5V109Z" fill="white"/>
+  <rect x="106.5" y="124.5" width="18.5" height="9.5" rx="2" fill="#6366F1"/>
+  <text x="190" y="138" fill="#FAFAFA" font-family="Inter, sans-serif" font-size="54" font-weight="700">CommerceForge Pitch</text>
+  <text x="88" y="230" fill="#FAFAFA" font-family="Inter, sans-serif" font-size="70" font-weight="800">Headless Shopify</text>
+  <text x="88" y="308" fill="#818CF8" font-family="Inter, sans-serif" font-size="70" font-weight="800">for agencies that need more control</text>
+  <text x="88" y="390" fill="#D4D4D8" font-family="Inter, sans-serif" font-size="30">SEO-safe migrations • custom B2C/B2B accounts • Oxygen runtime • AI-native workflow</text>
+
+  <rect x="88" y="462" width="234" height="54" rx="27" fill="#1D1E35" stroke="#6366F1" stroke-opacity="0.55"/>
+  <text x="123" y="496" fill="#E4E4E7" font-family="JetBrains Mono, monospace" font-size="22">Hydrogen 2026.1</text>
+  <rect x="340" y="462" width="176" height="54" rx="27" fill="#151518" stroke="#3F3F46"/>
+  <text x="381" y="496" fill="#E4E4E7" font-family="JetBrains Mono, monospace" font-size="22">Oxygen</text>
+  <rect x="534" y="462" width="236" height="54" rx="27" fill="#151518" stroke="#3F3F46"/>
+  <text x="576" y="496" fill="#E4E4E7" font-family="JetBrains Mono, monospace" font-size="22">vibe-code ready</text>
+
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#27272A"/>
+    </pattern>
+  </defs>
+</svg>
