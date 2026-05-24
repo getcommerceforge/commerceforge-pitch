@@ -286,8 +286,8 @@ h2 {
 }
 
 .phone-screen {
-  --phone-crop-top: 14px;
-  --phone-crop-bottom: 14px;
+  --phone-crop-top: 0px;
+  --phone-crop-bottom: 0px;
   position: relative;
   width: 100%;
   height: 100%;
@@ -908,8 +908,8 @@ h2 {
   }
 
   .phone-screen {
-    --phone-crop-top: 16px;
-    --phone-crop-bottom: 16px;
+    --phone-crop-top: 0px;
+    --phone-crop-bottom: 0px;
     border-radius: 1.6rem;
   }
 
@@ -975,8 +975,8 @@ h2 {
   }
 
   .phone-screen {
-    --phone-crop-top: 18px;
-    --phone-crop-bottom: 18px;
+    --phone-crop-top: 0px;
+    --phone-crop-bottom: 0px;
   }
 }
 
