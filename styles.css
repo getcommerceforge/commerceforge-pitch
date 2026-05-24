@@ -286,6 +286,8 @@ h2 {
 }
 
 .phone-screen {
+  --phone-crop-top: 14px;
+  --phone-crop-bottom: 16px;
   position: relative;
   width: 100%;
   height: 100%;
@@ -296,22 +298,13 @@ h2 {
     #050507;
 }
 
-.phone-screen::before {
-  content: "";
-  position: absolute;
-  inset: 0 0 auto 0;
-  z-index: 2;
-  height: 18px;
-  background: #050507;
-  pointer-events: none;
-}
-
 .phone-screen iframe,
 .phone-screen video {
   width: 100%;
-  height: 100%;
+  height: calc(100% + var(--phone-crop-top) + var(--phone-crop-bottom));
   border: 0;
   background: #050507;
+  transform: translateY(calc(-1 * var(--phone-crop-top)));
 }
 
 .phone-screen video {
@@ -915,6 +908,8 @@ h2 {
   }
 
   .phone-screen {
+    --phone-crop-top: 16px;
+    --phone-crop-bottom: 22px;
     border-radius: 1.6rem;
   }
 
@@ -977,6 +972,11 @@ h2 {
 @media (max-width: 420px) {
   .phone-shell {
     width: min(100%, 258px);
+  }
+
+  .phone-screen {
+    --phone-crop-top: 18px;
+    --phone-crop-bottom: 26px;
   }
 }
 
