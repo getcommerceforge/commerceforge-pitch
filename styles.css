@@ -263,6 +263,7 @@ h2 {
   width: min(100%, 360px);
   aspect-ratio: 9 / 19.5;
   padding: 14px;
+  overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.78);
   border-radius: 2.4rem;
   background:
@@ -278,6 +279,7 @@ h2 {
   content: "";
   position: absolute;
   inset: 10px;
+  z-index: 3;
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.02);
   pointer-events: none;
@@ -295,6 +297,16 @@ h2 {
     #050507;
 }
 
+.phone-screen::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 2;
+  height: 20px;
+  background: linear-gradient(180deg, rgba(5, 5, 7, 0.98), rgba(5, 5, 7, 0.72), transparent);
+  pointer-events: none;
+}
+
 .phone-screen iframe,
 .phone-screen video {
   width: 100%;
@@ -308,6 +320,7 @@ h2 {
   height: calc(100% / var(--phone-scale));
   transform: scale(var(--phone-scale));
   transform-origin: top center;
+  will-change: transform;
 }
 
 .phone-screen video {
@@ -911,7 +924,7 @@ h2 {
   }
 
   .phone-screen {
-    --phone-scale: 0.92;
+    --phone-scale: 0.84;
     border-radius: 1.6rem;
   }
 
@@ -977,7 +990,7 @@ h2 {
   }
 
   .phone-screen {
-    --phone-scale: 0.88;
+    --phone-scale: 0.78;
   }
 }
 
